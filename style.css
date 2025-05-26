@@ -1,0 +1,43 @@
+#container{
+    font-family: Arial, Helvetica;
+    font-size: 2rem;
+    text-align: center;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(214, 100%, 66%);
+    padding: 10px;
+    font-size: 2rem;
+    color: white;
+    min-width: 200px;
+    margin-bottom: 5px;
+}
+
+button:hover{
+    background-color: hsl(214, 100%, 77%);
+}
+
+button:active{
+    background-color: hsl(214, 100%, 84%);
+}
+
+#diceResult{
+    margin: 10px;
+}
+
+#totalResult{
+    font-weight: bold;
+    margin: 5px;
+}
+
+#diceImages img{
+    width: 100px;
+    margin: 5px;
+}
+
+#numOfDice{
+    font-size: 2rem;
+    text-align: center;
+}
